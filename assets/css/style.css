@@ -1,0 +1,257 @@
+body {
+	background-color:#efefef;
+	font-family:Helvetica,sans-serif;
+	margin:0;
+}
+
+h1 {
+	font-weight:normal;
+	font-size:26px;
+}
+h2 {
+	font-weight:normal;
+	font-size:16px;
+	padding:5px;
+	margin:0;
+	margin-top:-20px;
+	color:#999;
+}
+
+h2 ~ .add {
+	margin-top:0 !important;
+	/*width:100%;*/
+}
+
+.login {
+	width:400px;
+	margin:100px auto;
+	border:solid 1px #ccc;
+	background-color:white;
+	box-sizing:border-box;
+	padding:10px;
+}
+
+.login form {
+
+}
+
+.login input[type="email"],
+.login input[type="password"]
+{
+	width:100%;
+	font-size:14px;
+	padding:7px;
+	box-sizing:border-box;
+	border:none;
+	background-color:#efefef;
+	margin-bottom:10px;
+}
+
+.login input[type="submit"] {
+	font-size:14px;
+	border:none;
+	background:none;
+	background-color:#0580c0;
+	color:white;
+	padding:7px 12px;
+	cursor:pointer;
+	margin-top:10px;
+}
+
+
+header {
+	float:left;
+	width:100%;
+	background-color:#333;
+	box-sizing:border-box;
+	padding:5px;
+}
+
+header .logo {
+	font-size:18px;
+	color:white;
+	padding:10px;
+	float:left;
+	text-decoration: none;
+}
+
+header nav {
+	float:right;
+}
+
+header ul {
+	padding:0;
+	list-style:none;
+	float: left;
+	margin: 0;
+	margin-top: 10px;
+}
+
+header li {
+	float:left;
+}
+
+header nav a {
+	color:#efefef;
+	font-size:14px;
+	padding:4px 8px;
+	text-decoration:none;
+	border-radius:5px;
+}
+
+header nav a.red {
+	color:red;
+}
+
+header nav a:not(.red):hover {
+	background-color:white;
+	color:#666;
+}
+
+body > section {
+	float:left;
+	margin-top:20px;
+	width:100%;
+	box-sizing:border-box;
+	padding:20px;
+}
+
+
+a.add {
+	font-size:14px;
+	text-decoration: none;
+	color:green;
+	margin-top:-20px;
+	float:left;
+	padding:3px 6px;
+	border-radius:5px;
+}
+
+a.add:hover {
+	color:white;
+	background-color:green;
+}
+
+table {
+	width:100%;
+	margin-top:30px;
+	float:left;
+	border: solid 1px #DDD;
+}
+
+table th {
+	text-align:left;
+	background-color:#999;
+	padding:5px;
+	font-size:16px;
+	font-weight:normal;
+}
+
+table td {
+	padding:5px;
+	font-size:13px;
+}
+
+table tbody tr:nth-child(even) td {
+	background-color:white;
+}
+
+table tbody tr:hover td {
+	background-color:#ccc;
+}
+
+form.addform {
+	float:left;
+	width:50%;
+	margin-top:30px;
+	clear:both;
+}
+
+form.addform .row {
+	float:left;
+	width:100%;
+	margin-bottom:20px;
+}
+
+form.addform label {
+	float:left;
+	width:100%;
+	font-size:13px;
+	color:#666;
+	margin-bottom:3px;
+}
+
+form.addform input:not([type="submit"]),
+form.addform textarea,
+form.addform select
+{
+	font-size:14px;
+	float:left;
+	border-radius:3px;
+	border:solid 1px #ccc;
+	padding:6px;
+	width:100%;
+}
+
+form.addform input[type="submit"] {
+	font-size:14px;
+	border:none;
+	background:none;
+	background-color:#0580c0;
+	color:white;
+	padding:7px 12px;
+	cursor:pointer;
+	margin-top:10px;
+}
+
+#invoice {
+  width: 900px;
+  margin: 0 auto;
+  border: solid 1px #ccc;
+  background: white;
+}
+
+#invoice h1 {
+	  float: right;
+	  margin: 20px;
+	  color: white;
+}
+
+#invoice .company {
+	float:left;
+	clear:both;
+	color:#999;
+	margin:20px;
+	font-size:12px;
+	line-height: 20px;
+}
+
+#invoice .project {
+	float:right;
+	color:#999;
+	margin:20px;
+	font-size:12px;
+	line-height: 20px;
+	text-align: right;
+}
+
+#invoice .project span {
+	color: #eee;
+}
+
+#invoice .project div {
+	text-align:left;
+}
+
+#invoice header a {
+	color:white;
+}
+
+#invoice p {
+	display:inline-block;
+	padding:10px;
+	margin:0;
+}
+
+
+
