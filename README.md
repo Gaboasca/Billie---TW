@@ -18,4 +18,27 @@ Prezentare:
 - Plata totala 
 - Timpul intreg consumat pentru finalizare 
 - Data lansarii si data finalizarii 
-5. Schema arhitecturala:
+- 
+Tehnologii :
+	•	HTML5
+	•	PHP
+	•	CSS3
+	•	JS
+	•	MySql
+
+Taskuri: 
+Afilipoie Marius Gabriel:
+-	Realizarea bazei de date a proiectelor
+-	Realizarea sistemului de logare 
+-	Buton de download a facturii in format HTML
+-	Front-End
+-	Modul de filtrare
+Pojar Andrei:
+-	Realizarea bazei de date a clientilor
+-	Buton de download a facturii in format PDF
+-	Front-End
+Coros Stefan:
+-	Realizarea bazei de date a invoice-urilor
+-	Buton de download a facturii in format CSV
+-	Front-End
+
